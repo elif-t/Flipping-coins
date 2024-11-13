@@ -7,10 +7,17 @@ Print a list containing the positions (not indices) of the coins that remain hea
 
 
 A reminder about the workings of the algorithm:
+
     - Start with N coins heads up.
+
     - Flip the 2nd, 4th, 6th... coin.
+
     - Flip the 3rd, 6th, 9th... coin.
+
     - Flip the 4th, 8th, 12th... coin.
+
       ...
+
     - Flip the nth coin.
+
     - Take note of the final configuration of the coins.
